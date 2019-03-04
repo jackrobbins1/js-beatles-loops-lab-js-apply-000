@@ -4,9 +4,17 @@ const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 let newArr = [];
 
 function theBeatlesPlay(musician, instrument) {
-  for (i=1; i<musician.length; i++) {
+  for (i=0; i<musician.length; i++) {
     newArr.push(
       `${musicians[i]} plays ${instrument[i]}`
     );
   }
+}
+
+function johnLennonFacts(facts) {
+  for (i=0; i<facts.length; i++) {
+    let arr = [];
+    arr[i] = `${facts[i]} !!!`;
+  }
+  return arr;
 }
